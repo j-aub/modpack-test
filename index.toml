@@ -1,0 +1,33 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/commoncapabilities-common.toml"
+hash = "33833e024482f236567fb6922ecacffe91f499d002df9f67ae73ae596dab73d3"
+
+[[files]]
+file = "config/cyclopscore-common.toml"
+hash = "dc2c50b94eb95907694d847cbf9fe3526383c279478bf46cd55931b0ce729f29"
+
+[[files]]
+file = "config/integrateddynamics-common.toml"
+hash = "98e03c83393ad613c130b35f078e5799d7cb643839cc081e9843daac923864b9"
+
+[[files]]
+file = "mods/common-capabilities.pw.toml"
+hash = "cda79fb8aaf635c2136f5f5d1cfd51e7418ef6f064665295540a836839c44da9"
+metafile = true
+
+[[files]]
+file = "mods/cyclops-core.pw.toml"
+hash = "96bb3fe06c6dc1665b04811599d53b976e62a53f82d0ad658678695ac926e94d"
+metafile = true
+
+[[files]]
+file = "mods/embeddium.pw.toml"
+hash = "e5755503a6eabcdca52ad30c9badadf8427c51115a4d6c84defb7661f0a479cb"
+metafile = true
+
+[[files]]
+file = "mods/integrated-dynamics.pw.toml"
+hash = "612bc81860d0784ce6abff3565b4c29b4e29cf769b88177a94fdc3a8f214b128"
+metafile = true

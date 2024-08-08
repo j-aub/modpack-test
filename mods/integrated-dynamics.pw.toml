@@ -1,0 +1,13 @@
+name = "Integrated Dynamics"
+filename = "IntegratedDynamics-1.20.1-1.23.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yYzdQHJI/versions/pyGfsmYC/IntegratedDynamics-1.20.1-1.23.1.jar"
+hash-format = "sha1"
+hash = "bdff0615ed2b30f2879dda281020706f7b9eec50"
+
+[update]
+[update.modrinth]
+mod-id = "yYzdQHJI"
+version = "pyGfsmYC"

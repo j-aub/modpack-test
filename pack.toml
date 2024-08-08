@@ -1,0 +1,12 @@
+name = "Modpack Test"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "7d45f6d6f8355c348b1ba35a37f313b46e73fa845877fa80abe5e21e5468093e"
+
+[versions]
+minecraft = "1.20.1"
+neoforge = "47.1.106"
