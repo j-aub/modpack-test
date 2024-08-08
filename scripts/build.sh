@@ -35,7 +35,7 @@ mkdir dist
 # we now create a prismlauncher dummy modpack
 # inspired by https://gist.github.com/copygirl/ec93c25628b083d4f25bd48259b6d505
 mkdir temp
-pushd temp
+cd temp
 
 mkdir .minecraft
 curl -L \
@@ -68,7 +68,7 @@ EOF
 # create the artifact
 zip -qr "instance.zip" .
 # go back to root dir
-popd
+cd ..
 # move the artifact into position
 # prismlauncher gets the instance name from the zip file name unfortunately
 mv "temp/instance.zip" "./dist/${NAME_PRETTY}.zip"
