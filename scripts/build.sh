@@ -6,8 +6,6 @@ NAME="modpack-test"
 # $1 is the version/commit
 VERSION="$1"
 
-# rename the packwiz binary to something sane
-mv 'Linux 64-bit x86' packwiz
 # ensure the packwiz binary is executable
 chmod +x packwiz
 # ensure output directory exists
@@ -15,9 +13,9 @@ mkdir dist
 
 # create the modpacks
 # client curseforge
-packwiz curseforge export -o "dist/${NAME}-curseforge-${VERSION}.zip"
+./packwiz curseforge export -o "dist/${NAME}-curseforge-${VERSION}.zip"
 # server curseforge
-packwiz curseforge export -o "dist/${NAME}-curseforge-server-${VERSION}.zip" -s server
+./packwiz curseforge export -o "dist/${NAME}-curseforge-server-${VERSION}.zip" -s server
 # modrinth
-packwiz curseforge export -o "dist/${NAME}-modrinth-${VERSION}.mrpack"
+./packwiz curseforge export -o "dist/${NAME}-modrinth-${VERSION}.mrpack"
 # we now create a prismlauncher dummy modpack
