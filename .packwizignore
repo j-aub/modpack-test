@@ -3,4 +3,7 @@ LICENSE
 README.md
 .github/
 scripts/
+# local testing of actions
 dist/
+temp/
+packwiz

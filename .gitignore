@@ -1,1 +1,4 @@
+# local testing of actions
 dist/
+temp/
+packwiz
